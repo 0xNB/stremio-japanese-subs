@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 
 const { serveHTTP, publishToCentral } = require("stremio-addon-sdk")
-const addonInterface = require("./addon")
+const addonInterface = require("addon")
+
 serveHTTP(addonInterface, { port: process.env.PORT || 59821 })
 
 // when you've deployed your addon, un-comment this line

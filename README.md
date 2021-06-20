@@ -1,5 +1,14 @@
-# stremio-japanese-subs
-A plugin that adds support for various Japanese subtitle providers to stremio, themes ranging from anime to normal series and movies.
+# Stremio Japanese Subtitle Addon
 
-![grafik](https://user-images.githubusercontent.com/14185207/116783509-564f1280-aa8f-11eb-809b-2fbdc09f295b.png) ![grafik](https://user-images.githubusercontent.com/14185207/116783516-64049800-aa8f-11eb-90e1-fcb1ba9eb306.png)
+This plugin aims to bundle various online readily available Japanese subtitle sites for movies and series and supply them to stremio.
 
+## How it works
+
+Depending on the type of show the plugin will look up common hosting sites for subtitles and download them to the locally deployed server.
+If nothing was found then no subs will be downloaded. 
+
+
+## Installation Guide 
+
+Since the database of subtitles is quite large it is not committed to GitHub. One can download the database and add it to the dummy folder in this project when hosting. 
+The server will log if the installation of sub files was successful or not. 
